@@ -22,7 +22,7 @@ const Contact = () => {
       return;
     }
 
-    toast.success("Message sent! Lovable is listening… We'll respond soon.");
+    toast.success("Message sent! Sovereign AI is listening… We'll respond soon.");
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -38,12 +38,15 @@ const Contact = () => {
         >
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-primary-foreground">
               ⚙️ Need a hand forging your daemon?
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-muted-foreground mb-4">
               We're a small circle of engineers, poets, and coders who believe in digital sovereignty.<br />
               We don't have a call center. We have code. Talk directly.
+            </p>
+            <p className="text-lg text-foreground/70 italic">
+              "Every great assistant begins with a conversation. Let's forge yours."
             </p>
           </div>
 
@@ -93,7 +96,8 @@ const Contact = () => {
 
               <Button
                 type="submit"
-                className="w-full bg-gradient-primary text-primary-foreground py-6 text-lg font-semibold shadow-glow-primary hover:scale-[1.02] transition-transform"
+                size="lg"
+                className="w-full py-6 text-lg font-semibold"
               >
                 Send Message ➤
               </Button>
@@ -107,11 +111,8 @@ const Contact = () => {
             transition={{ delay: 0.3 }}
             className="text-center mt-12 space-y-2"
           >
-            <p className="text-lg text-muted-foreground italic">
-              "Every great assistant begins with a conversation. Let's build yours."
-            </p>
             <p className="text-sm text-muted-foreground">
-              🌐 Sovereign Intelligence • © 2025 LOVABLE
+              🌐 Sovereign Intelligence • © 2025 SOVEREIGN AI ASSISTANT
             </p>
           </motion.div>
         </motion.div>

@@ -102,8 +102,7 @@ export default {
         "gradient-glow": "var(--gradient-glow)",
       },
       boxShadow: {
-        "glow-primary": "var(--glow-primary)",
-        "glow-secondary": "var(--glow-secondary)",
+        "sovereign": "var(--shadow-sovereign)",
         "glass": "var(--shadow-glass)",
       },
     },
