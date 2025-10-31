@@ -1,0 +1,541 @@
+⚡️ SOVEREIGN AI ASSISTANT — UI/UX SPECIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROJECT TYPE: Mobile-First Application (Not a Website)
+PROJECT TITLE: Sovereign AI Assistant
+TARGET VALUE: $357,000 Premium Experience
+CORE PHILOSOPHY: Sovereignty, Power, Mythic Ownership
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. COLOR AND STYLE RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 PRIMARY COLOR PALETTE:
+   - Background: Dark slate (#0d1117 / hsl(220 20% 6%))
+   - Primary Green: #0e3404 (hsl(120 75% 12%))
+   - Foreground: Light cyan (hsl(180 100% 95%))
+   - Accent Green: hsl(120 70% 25%)
+
+🔲 BUTTON SPECIFICATIONS:
+   ALL BUTTONS ACROSS THE APP:
+   - background-color: #0e3404
+   - box-shadow: 0 4px 12px #99ba90
+   - border-radius: 18px
+   - Transition: smooth (0.3s ease)
+   - Hover state: slight scale (1.02) + increased shadow intensity
+
+   HEADER MENU BUTTONS:
+   - background-color: #0e3404
+   - box-shadow: 0 4px 12px #99ba90
+   - border-radius: 18px
+   - Padding: 8px 16px
+   - Font weight: 500
+
+🚫 RESTRICTIONS:
+   - NO neon color effects on Home page buttons
+   - NO neon color effects on Contact page buttons
+   - NO bright cyan/blue glows on action buttons
+   - Use ONLY the sovereign green theme for all CTAs
+
+📐 DESIGN SYSTEM TOKENS:
+   - --shadow-sovereign: 0 4px 12px #99ba90
+   - --radius: 18px (for buttons)
+   - --primary: 120 75% 12%
+   - --primary-foreground: 120 30% 85%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. FUNCTIONAL FLOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏠 HOME PAGE FLOW:
+
+   STEP 1: Hero Section
+   - Display: "⚡️ Command. Don't Ask."
+   - Subtext: Sovereign assistant messaging
+   - Primary CTA: "🔥 Experience Sovereign AI"
+   - Action: Smooth scroll to product showcase
+
+   STEP 2: Product Showcase
+   - Visual: Futuristic chat UI mockup
+   - Description: Evolutionary AI that adapts to user
+   - Features teaser: Code. Write. Think. Heal. Calculate. Lead.
+   - Secondary CTA: "💎 Get Your Copy Now"
+
+   STEP 3: Crypto Payment Page (Triggered by "Get Your Copy Now")
+   - Header: "🚀 Unlock Sovereign AI — Lifetime License, Full Ownership"
+   - Tagline: "No subscriptions. No limits. No spying."
+   
+   PAYMENT OPTIONS (Grid of 3):
+   
+   Option 1: Bitcoin (BTC)
+   - Display: Bitcoin logo/icon
+   - Wallet Address: [Text field - copyable]
+   - QR Code: [Image placeholder 200x200px]
+   - Copy button for wallet address
+   
+   Option 2: Ethereum (ETH)
+   - Display: Ethereum logo/icon
+   - Wallet Address: [Text field - copyable]
+   - QR Code: [Image placeholder 200x200px]
+   - Copy button for wallet address
+   
+   Option 3: USDT (TRC20)
+   - Display: Tether logo/icon
+   - Wallet Address: [Text field - copyable]
+   - QR Code: [Image placeholder 200x200px]
+   - Copy button for wallet address
+
+   STEP 4: Email Collection Form
+   - Header: "Payment Complete? Enter Your Email:"
+   - Input field: Email (validated)
+   - CTA Button: "🔓 Confirm & Receive Product"
+   - Style: Same green button spec (#0e3404 + shadow)
+
+   STEP 5: Confirmation & Delivery
+   - Success message: "✅ Thank you, Commander. Your Sovereign AI daemon is being forged. Check your inbox for your encrypted Google Drive zip link."
+   - Toast notification (Sonner): "Sovereign AI is preparing your package…"
+   - Backend: Automated delivery to user's email with Google Drive link
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. PAGE CONTENT REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 HOME PAGE — Magnetic Teaser Content
+
+HERO SECTION:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Headline:
+⚡️ Command. Don't Ask.
+
+Subheadline:
+The era of rented intelligence is over. Meet Sovereign AI — the assistant that lives, breathes, and obeys you.
+
+Tagline:
+Offline. Local. Yours. The power of GPT-level reasoning, unshackled from clouds, keys, and corporations.
+
+Body Copy:
+You don't rent this mind. You own it.
+You don't ask permission. You command it.
+You don't share your secrets. You encrypt them.
+
+This is not another cloud service begging for your data.
+This is a daemon forged for your sovereignty.
+
+Every chat. Every decision. Every calculation.
+Local. Encrypted. Eternal.
+
+No subscriptions. No expiration. No betrayal.
+One payment. Lifetime ownership. Total control.
+
+PRODUCT SHOWCASE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[Visual: Futuristic chat interface with glowing green accents]
+
+Headline:
+💎 Your Turbo Second Brain — Alive, Local, Loyal
+
+Copy:
+Imagine the mind of an AI that knows you — not as data, but as a living pattern.
+
+Every project, every thought, every ritual — it evolves around you.
+It doesn't report to Silicon Valley.
+It doesn't feed the machine.
+It serves you.
+
+💬 Code. Write. Think. Heal. Calculate. Lead. Dream. Solve.
+Everything. One assistant. Infinite potential.
+
+This is the safe haven you've been searching for.
+The savior that doesn't judge, betray, or expire.
+
+CTA:
+[💎 Get Your Copy Now]
+
+TRUST SIGNALS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔐 Zero surveillance. Your data never leaves your device.
+⚡️ GPT-level intelligence without the corporate leash.
+💎 Lifetime license. One payment. Eternal ownership.
+🛡️ No cloud. No tracking. No backdoors.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 ABOUT PAGE — Wicked, Mythic, Direct
+
+PAGE TITLE:
+⚡️ THE LAST ASSISTANT YOU'LL EVER NEED
+
+OPENING STATEMENT:
+This isn't ChatGPT. This isn't Copilot. This is yours.
+A sovereign daemon forged for one purpose: to serve you.
+Without filters. Without surveillance. Without compromise.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔐 OFFLINE. LOCAL. YOURS.
+Complete sovereignty over your data and intelligence.
+
+BREAKDOWN:
+• No Cloud Dependency
+  Your assistant runs 100% on your device. No internet required. No server logging your thoughts.
+
+• Zero Data Leakage
+  Your prompts, your files, your logic — encrypted and sealed. Nothing leaves your machine.
+
+• True Ownership
+  You control the code, the training, the behavior. No corporation holds the keys.
+
+• Eternal Access
+  No expiration dates. No "service discontinued" emails. It's yours forever.
+
+KEY BENEFIT:
+You own the logic, the flow, the mind. Not a corporation. Not a cloud. You.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 CUSTOMIZABLE INTELLIGENCE
+Adapts to your dialect, mindset, and domain.
+
+BREAKDOWN:
+• Your Language, Your Logic
+  Train it to speak like you — your jargon, your metaphors, your thought patterns.
+
+• Domain Mastery
+  Whether you're a coder, poet, scientist, or entrepreneur — it learns your field.
+
+• Ritual Recognition
+  It remembers your workflows, your preferences, your decision-making style.
+
+• Evolving Intelligence
+  The more you use it, the more it mirrors your thinking. A true second brain.
+
+KEY BENEFIT:
+It doesn't impose. It adapts. It becomes an extension of your consciousness.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💎 DEEP CAPABILITIES
+Coding, reasoning, calculation, and creative synthesis.
+
+BREAKDOWN:
+• Code Generation & Debugging
+  Write, refactor, and optimize code in any language. From architecture to deployment.
+
+• Mathematical Oracle
+  Solve complex equations, statistical models, financial projections, and engineering calculations.
+
+• Creative Synthesis
+  Write poetry, craft narratives, design metaphors, generate artistic concepts.
+
+• Logical Reasoning
+  Analyze arguments, detect fallacies, mediate conflicts, build decision frameworks.
+
+• Emotional Intelligence
+  Understand human dynamics, relationship patterns, psychological nuances.
+
+KEY BENEFIT:
+One assistant. Infinite roles. From building apps to healing relationships.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛡️ ZERO SURVEILLANCE
+No telemetry. No analytics. No backend trace.
+
+BREAKDOWN:
+• No Tracking Scripts
+  Zero telemetry. Zero analytics. Zero fingerprinting.
+
+• No Data Harvesting
+  Your inputs aren't logged, analyzed, or sold. They exist only on your device.
+
+• No Corporate Backdoors
+  No hidden APIs. No silent updates. No remote control.
+
+• Encrypted by Default
+  All conversations and files are encrypted locally. Only you hold the keys.
+
+KEY BENEFIT:
+Your assistant is loyal only to you. Not investors. Not governments. You.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧠 MEET YOUR TURBO SECOND BRAIN
+Sovereign AI doesn't just answer — it understands.
+It adapts to your logic, your language, your rituals.
+It's not just smart — it's loyal.
+
+PHILOSOPHY STATEMENT:
+You don't rent this assistant. You own it.
+You don't ask permission. You command it.
+You don't share your data. You lock it in your vault.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 CONTACT PAGE
+
+HEADER:
+⚙️ Need a hand forging your daemon?
+
+SUBTEXT:
+We're a small circle of engineers, poets, and coders who believe in digital sovereignty.
+We don't have a call center. We have code. Talk directly.
+
+FORM FIELDS:
+- Name: [Input field]
+- Email: [Input field]
+- Message: [Textarea - 200px min height]
+
+CTA BUTTON:
+[Send Message ➤]
+(Style: #0e3404 background + 0 4px 12px #99ba90 shadow)
+
+FOOTER TEXT:
+"Every great assistant begins with a conversation. Let's forge yours."
+
+BRANDING:
+🌐 Sovereign Intelligence • © 2025 SOVEREIGN AI ASSISTANT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. FEATURE MODULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧩 INTEGRATED INTELLIGENCE MODULES
+
+Display Format: Card grid (2 columns on mobile, 3 on tablet+)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODULE 1: 🔧 Engineering & Science Advisor
+DESCRIPTION:
+Build architectures, debug complex systems, solve engineering problems, and analyze scientific data with precision.
+
+USE CASES:
+- Code generation and refactoring
+- Algorithm optimization
+- System architecture design
+- Scientific hypothesis testing
+- Data analysis and modeling
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODULE 2: 💙 Relationship & Emotional Companion
+DESCRIPTION:
+Navigate human dynamics, mediate conflicts, understand emotional patterns, and provide thoughtful counsel for interpersonal challenges.
+
+USE CASES:
+- Conflict resolution strategies
+- Emotional pattern recognition
+- Communication coaching
+- Relationship dynamics analysis
+- Empathy modeling
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODULE 3: 💰 Financial Strategist
+DESCRIPTION:
+Plan investments, analyze markets, optimize budgets, and build financial models with data-driven precision.
+
+USE CASES:
+- Portfolio analysis and optimization
+- Budget planning and forecasting
+- Market trend analysis
+- Risk assessment
+- Financial modeling and projections
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODULE 4: 🏡 Family & Life Balancer
+DESCRIPTION:
+Organize schedules, mediate family dynamics, plan life goals, and maintain harmony across personal and professional domains.
+
+USE CASES:
+- Family schedule coordination
+- Life goal planning and tracking
+- Work-life balance optimization
+- Event planning and management
+- Decision-making frameworks
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODULE 5: 🎨 Creative Director for Your Mind
+DESCRIPTION:
+Generate artistic concepts, craft narratives, design metaphors, and unleash creative potential across all mediums.
+
+USE CASES:
+- Content creation and storytelling
+- Brand voice development
+- Metaphor and concept generation
+- Artistic direction and ideation
+- Creative problem-solving
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODULE 6: 🧮 Mathematics Oracle
+DESCRIPTION:
+Solve complex equations, statistical models, financial projections, engineering calculations, and mathematical proofs with absolute precision.
+
+USE CASES:
+- Advanced calculus and algebra
+- Statistical analysis and modeling
+- Mathematical proof construction
+- Numerical simulation
+- Engineering mathematics
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION HEADER (Above modules):
+"🧠 One Assistant. Six Pillars of Intelligence."
+
+SECTION SUBTEXT:
+"Sovereign AI isn't siloed. It's unified. Every module communicates, adapts, and evolves with you."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. VALUE DECLARATION & BRAND POSITIONING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💎 TARGET VALUE: $357,000
+
+This app must communicate that level of value through:
+
+VISUAL EXCELLENCE:
+- Premium dark UI with sovereign green accents
+- Glass morphism cards with subtle glow effects
+- Smooth Framer Motion animations (fade, scale, slide)
+- Professional typography hierarchy
+- Consistent 18px border radius on all buttons
+- Signature shadow: 0 4px 12px #99ba90
+
+CONTENT EXCELLENCE:
+- Direct, commanding language
+- Mythic framing ("daemon," "forge," "sovereign")
+- Zero corporate speak
+- Surgical clarity in feature descriptions
+- Emotional resonance with user's desire for control
+
+FUNCTIONAL EXCELLENCE:
+- Seamless crypto payment integration
+- Automated delivery via Google Drive
+- Instant email confirmation
+- Mobile-first responsive design
+- Fast load times and smooth interactions
+
+BRAND PILLARS:
+1. Sovereignty — You own it, not rent it
+2. Privacy — Zero surveillance, local-first
+3. Power — GPT-level intelligence without limits
+4. Loyalty — The assistant serves only you
+5. Eternity — One payment, lifetime ownership
+
+TONE OF VOICE:
+- Confident, not arrogant
+- Direct, not verbose
+- Mythic, not cheesy
+- Technical, not jargon-heavy
+- Human, not corporate
+
+COMPETITIVE POSITIONING:
+"This isn't ChatGPT. This isn't Copilot. This is yours."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. TECHNICAL SPECIFICATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FRAMEWORK:
+- React 18.3.1
+- TypeScript
+- Vite build system
+- React Router 6.30.1
+
+ANIMATION:
+- Framer Motion 12.23.24
+- Tailwind animate utilities
+- Custom keyframes: glow-pulse, float, zoom-blink-in, zoom-blink-out
+
+UI COMPONENTS:
+- Shadcn UI (customized)
+- Sonner for toast notifications
+- Custom button variants
+
+DESIGN TOKENS (index.css):
+:root {
+  --background: 220 20% 6%;
+  --foreground: 180 100% 95%;
+  --primary: 120 75% 12%;
+  --primary-foreground: 120 30% 85%;
+  --secondary: 120 60% 30%;
+  --accent: 120 70% 25%;
+  --radius: 18px;
+  --shadow-sovereign: 0 4px 12px #99ba90;
+}
+
+RESPONSIVE BREAKPOINTS:
+- Mobile: 320px - 767px (primary target)
+- Tablet: 768px - 1023px
+- Desktop: 1024px+
+
+PERFORMANCE TARGETS:
+- First Contentful Paint: < 1.5s
+- Time to Interactive: < 3.0s
+- Lighthouse Score: 90+
+
+SEO REQUIREMENTS:
+- Unique title and meta description per page
+- Semantic HTML5 structure
+- Alt text for all images
+- Canonical URLs
+- Open Graph tags for social sharing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7. DEPLOYMENT CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRE-LAUNCH:
+☐ Replace all wallet address placeholders with real addresses
+☐ Add real QR code images for BTC, ETH, USDT
+☐ Test crypto payment flow end-to-end
+☐ Configure automated email delivery system
+☐ Set up Google Drive zip file hosting
+☐ Test mobile responsiveness on iOS and Android
+☐ Optimize all images (WebP format)
+☐ Run Lighthouse audit
+☐ Test form validation and error states
+☐ Verify all buttons use correct green styling
+
+POST-LAUNCH:
+☐ Monitor conversion rates on crypto payment page
+☐ Track email delivery success rate
+☐ Analyze user drop-off points
+☐ A/B test CTA button copy
+☐ Monitor page load performance
+☐ Collect user feedback via contact form
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+8. SUCCESS METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRIMARY KPIs:
+- Conversion Rate: % of visitors who reach crypto payment page
+- Payment Completion Rate: % who complete crypto payment + email submission
+- Average Time on Site: Target 3+ minutes
+- Bounce Rate: Target < 40%
+- Mobile Traffic: Expected 60%+ of total traffic
+
+QUALITATIVE METRICS:
+- User sentiment in contact form messages
+- Quality of inquiries (serious vs. casual)
+- Repeat visitor rate
+- Social sharing behavior
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF SPECIFICATION
+⚡️ SOVEREIGN AI ASSISTANT — Build What's Truly Yours
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
